@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-0-async_generator moddule
+0-async_generator module
 """
 import asyncio
 import random
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     async_generator function
 
